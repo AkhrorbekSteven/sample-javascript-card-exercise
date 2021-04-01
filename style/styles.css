@@ -181,7 +181,6 @@ button span {
         height: 35px;
     }
     .container {
-        border: 1px solid red;
         flex-direction: column;
     }
     .card {
