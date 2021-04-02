@@ -10,14 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="inputs-wrapper">
-        <input type="text" id="inputTitle" placeholder="Enter title of the card">
-        <input type="text" id="inputImg" placeholder="Paste a link of image"> 
-        <input type="text" id="inputContent" placeholder="Write a content for the card">
-        <button>
+    <form class="inputs-wrapper">
+        <input type="text" id="inputTitle" placeholder="Enter title of the card" required>
+        <input type="url" id="inputImg" placeholder="Paste a link of image" required> 
+        <input type="text" id="inputContent" placeholder="Write a content for the card" required>
+        <button type="submit">
             <span>+</span> Add
         </button>
-    </div>
+    </form>
     <div class="container"></div>
     <script src="js/main.js"></script>
 </body>
