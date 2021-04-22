@@ -7,9 +7,9 @@ const container  = document.querySelector('.container'),
 
 let database = [
     {
-     title: 'Uzbekistan',
-     url: 'img/image-1.jpg',
-     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero nemo, facilis ducimus iusto eius libero eveniet illum.'
+        title: 'Uzbekistan',
+        url: 'img/image-1.jpg',
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero nemo, facilis ducimus iusto eius libero eveniet illum.'
     },
     {
         title: 'America',
@@ -89,7 +89,6 @@ addBtn.addEventListener('click', () => {
         renderer(database)
         inputTitle.value = ''
         inputImg.value = ''
-        inputContent.value = '' 
-        console.log(true);       
+        inputContent.value = ''        
     }
 })
